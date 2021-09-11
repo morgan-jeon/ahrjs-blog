@@ -12,16 +12,6 @@
     {{!-- Theme assets - use the {asset} helper to reference styles & scripts,
     this will take care of caching and cache-busting automatically --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
-    <style>
-    @font-face {
-        font-family: 'AppleSDGothic';
-        src:url('assets/built/sdl.woff') format('woff'),
-            url('assets/built/sdr.woff') format('woff');
-    }
-    * {
-        font-family: 'AppleSDGothic';
-    }
-    </style>
     {{!-- This tag outputs all your advanced SEO meta, structured data, and other important settings,
     it should always be the last tag before the closing head tag --}}
     {{ghost_head}}
